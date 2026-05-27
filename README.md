@@ -1,8 +1,8 @@
-Smart Railway Operations and Engineer Management System 🚆
+Smart Railway Operations and Engineer Management System 
 
 A centralized railway maintenance and engineer management platform developed using Flutter, Node.js, and MySQL. The system helps railway authorities manage complaints, installations, engineer assignments, spare inventory, operational tasks, and real-time monitoring through a digital platform.
 
-🔧 Technologies Used
+Technologies Used
 Frontend
 Flutter
 Dart
@@ -17,7 +17,7 @@ REST APIs
 Database
 MySQL
 
-✨ Main Features
+Main Features
 Secure Login Authentication
 Complaint Management
 Installation Management
@@ -28,7 +28,7 @@ Operational Dashboard
 Report Generation
 REST API Integration
 
-👤 User Roles
+User Roles
 Admin
 Manage complaints
 Assign engineers
@@ -40,7 +40,7 @@ View assigned tasks
 Update work status
 Track assignments
 
-🔌 APIs Used
+APIs Used
 POST /login
 POST /register-complaint
 GET /complaints
@@ -48,7 +48,7 @@ POST /register-installation
 POST /register-task
 GET /tasks-register
 
-⚙️ Setup
+Setup
 Frontend
 flutter pub get
 flutter run 
