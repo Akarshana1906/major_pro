@@ -1,17 +1,62 @@
-# frontend
+Smart Railway Operations and Engineer Management System 🚆
 
-A new Flutter project.
+A centralized railway maintenance and engineer management platform developed using Flutter, Node.js, and MySQL. The system helps railway authorities manage complaints, installations, engineer assignments, spare inventory, operational tasks, and real-time monitoring through a digital platform.
 
-## Getting Started
+🔧 Technologies Used
+Frontend
+Flutter
+Dart
+Material UI
+Flutter Map
 
-This project is a starting point for a Flutter application.
+Backend
+Node.js
+Express.js
+REST APIs
 
-A few resources to get you started if this is your first Flutter project:
+Database
+MySQL
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+✨ Main Features
+Secure Login Authentication
+Complaint Management
+Installation Management
+Task Assignment System
+Engineer Tracking using OpenStreetMap
+Spare Inventory Management
+Operational Dashboard
+Report Generation
+REST API Integration
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+👤 User Roles
+Admin
+Manage complaints
+Assign engineers
+Create tasks
+Monitor operations
+Generate reports
+Engineer/User
+View assigned tasks
+Update work status
+Track assignments
+
+🔌 APIs Used
+POST /login
+POST /register-complaint
+GET /complaints
+POST /register-installation
+POST /register-task
+GET /tasks-register
+
+⚙️ Setup
+Frontend
+flutter pub get
+flutter run 
+
+Backend
+npm install
+node server.js
+
+
+Developed by 
+Akarshana
